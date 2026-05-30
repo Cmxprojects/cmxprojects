@@ -10993,3 +10993,84 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+
+ ==========================================
+   CMX PROJECTS - BRAND COLOUR OVERRIDES
+   ========================================== */
+
+:root {
+    --bs-primary: #1F6B4A;
+}
+
+/* Primary buttons */
+.btn-primary {
+    background-color: #1F6B4A !important;
+    border-color: #1F6B4A !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #175038 !important;
+    border-color: #175038 !important;
+}
+
+/* About section background */
+.bg-primary {
+    background-color: #1F6B4A !important;
+}
+
+/* Icons */
+.text-primary {
+    color: #1F6B4A !important;
+}
+
+/* Dividers */
+.divider {
+    border-color: #1F6B4A !important;
+}
+
+/* Portfolio image hover overlay */
+.portfolio-box .portfolio-box-caption {
+    background: rgba(31, 107, 74, 0.9) !important;
+}
+
+/* Navigation links */
+#mainNav .navbar-nav .nav-item .nav-link:hover,
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #1F6B4A !important;
+}
+
+/* Navbar brand when scrolled */
+#mainNav.navbar-shrink .navbar-brand {
+    color: #1F6B4A !important;
+}
+
+/* Links */
+a {
+    color: #1F6B4A;
+}
+
+a:hover {
+    color: #175038;
+}
+
+/* Contact form button */
+#submitButton {
+    background-color: #1F6B4A !important;
+    border-color: #1F6B4A !important;
+}
+
+#submitButton:hover {
+    background-color: #175038 !important;
+    border-color: #175038 !important;
+}
+
+header.masthead::before {
+    background: linear-gradient(
+        to bottom,
+        rgba(31, 107, 74, 0.8) 0%,
+        rgba(31, 107, 74, 0.8) 100%
+    ) !important;
+}
