@@ -11088,3 +11088,9 @@ header.masthead::before {
         rgba(58, 64, 30, 0.75)
     ) !important;
 }
+
+.portfolio-box img {
+    width: 100%;
+    height: 300px; /* Adjust this number to change the overall height of the row */
+    object-fit: cover;
+}
